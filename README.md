@@ -1,6 +1,6 @@
 # axl-react-countdown
 A countdown component built for React
-
+See demo and full doc : https://axelco.github.io/axl-react-countdown
 ## Quick start
 Go to your react project and install axl-react-countdown :
 ```
