@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/axl-react-countdown/static/css/main.550cb726.chunk.css",
-    "main.js": "/axl-react-countdown/static/js/main.cf51d520.chunk.js",
-    "main.js.map": "/axl-react-countdown/static/js/main.cf51d520.chunk.js.map",
+    "main.css": "/axl-react-countdown/static/css/main.26b07aaa.chunk.css",
+    "main.js": "/axl-react-countdown/static/js/main.08950352.chunk.js",
+    "main.js.map": "/axl-react-countdown/static/js/main.08950352.chunk.js.map",
     "runtime-main.js": "/axl-react-countdown/static/js/runtime-main.742a2f15.js",
     "runtime-main.js.map": "/axl-react-countdown/static/js/runtime-main.742a2f15.js.map",
     "static/css/2.7082bcee.chunk.css": "/axl-react-countdown/static/css/2.7082bcee.chunk.css",
     "static/js/2.8d928b22.chunk.js": "/axl-react-countdown/static/js/2.8d928b22.chunk.js",
     "static/js/2.8d928b22.chunk.js.map": "/axl-react-countdown/static/js/2.8d928b22.chunk.js.map",
     "index.html": "/axl-react-countdown/index.html",
-    "precache-manifest.83aa72fcfef4000a5ac7bfd12af6d243.js": "/axl-react-countdown/precache-manifest.83aa72fcfef4000a5ac7bfd12af6d243.js",
+    "precache-manifest.d12ce07d8a9c7d580580bc8adaf594fe.js": "/axl-react-countdown/precache-manifest.d12ce07d8a9c7d580580bc8adaf594fe.js",
     "service-worker.js": "/axl-react-countdown/service-worker.js",
     "static/css/2.7082bcee.chunk.css.map": "/axl-react-countdown/static/css/2.7082bcee.chunk.css.map",
-    "static/css/main.550cb726.chunk.css.map": "/axl-react-countdown/static/css/main.550cb726.chunk.css.map",
+    "static/css/main.26b07aaa.chunk.css.map": "/axl-react-countdown/static/css/main.26b07aaa.chunk.css.map",
     "static/js/2.8d928b22.chunk.js.LICENSE": "/axl-react-countdown/static/js/2.8d928b22.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.742a2f15.js",
     "static/css/2.7082bcee.chunk.css",
     "static/js/2.8d928b22.chunk.js",
-    "static/css/main.550cb726.chunk.css",
-    "static/js/main.cf51d520.chunk.js"
+    "static/css/main.26b07aaa.chunk.css",
+    "static/js/main.08950352.chunk.js"
   ]
 }

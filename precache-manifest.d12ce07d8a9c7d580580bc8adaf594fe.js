@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6aba697692a4fc188f9e34897a6b090",
+    "revision": "cc386d7c04d48e75191fe02253d0c120",
     "url": "/axl-react-countdown/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/axl-react-countdown/static/css/2.7082bcee.chunk.css"
   },
   {
-    "revision": "d420d29e2c4a9c9cf8c1",
-    "url": "/axl-react-countdown/static/css/main.550cb726.chunk.css"
+    "revision": "336f71a0ee0490791ff0",
+    "url": "/axl-react-countdown/static/css/main.26b07aaa.chunk.css"
   },
   {
     "revision": "39ea2450bdb52412fe25",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/axl-react-countdown/static/js/2.8d928b22.chunk.js.LICENSE"
   },
   {
-    "revision": "d420d29e2c4a9c9cf8c1",
-    "url": "/axl-react-countdown/static/js/main.cf51d520.chunk.js"
+    "revision": "336f71a0ee0490791ff0",
+    "url": "/axl-react-countdown/static/js/main.08950352.chunk.js"
   },
   {
     "revision": "efd0d07317f67a66bff3",
