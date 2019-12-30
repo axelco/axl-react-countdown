@@ -1,6 +1,7 @@
 import React from 'react';
 import{ButtonGroup, Button, Alert} from 'react-bootstrap'
-import Countdown from './Countdown'
+// import Countdown from './Countdown'
+import Countdown from 'axl-react-countdown';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faHourglassStart } from '@fortawesome/free-solid-svg-icons'
@@ -106,13 +107,13 @@ class HomeTopSectionCd extends React.Component {
 
         return <>
         
-            <article className="axl-section axl-section-100 bg-dark-lighten-10 axl-home-icon-section" >
+            <article className="axl-section axl-section-100 bg-primary-gradient axl-home-icon-section" >
                 <div className="centered-icon">
                   <FontAwesomeIcon icon={faHourglassStart} size="lg"   />
                 </div>                  
                 <div className="container-sm_x text-center">            
 
-                    <h1 className="mb-5 display-3 text-white">Axl <strong className="text-secondary">React CountDown</strong> Component</h1>
+                    <h1 className="mb-5 display-3 text-white">Axl React CountDown Component</h1>
                     <p className="text-white lead-1 mb-5">A simple and easy to use react component<br/>
                      to trigger a countdown on your web app.</p>
                     

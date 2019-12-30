@@ -1,5 +1,6 @@
 {
   "name": "axl-countdown",
+  "homepage": "http://axelco.github.io/axl-react-countdown",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +10,9 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "axl-react-countdown": "file:../../npm-modules/axl-react-countdown",
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.0",
     "popper.js": "^1.16.0",
@@ -23,6 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",    
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

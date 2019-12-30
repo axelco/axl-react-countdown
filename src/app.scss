@@ -1,4 +1,5 @@
 $dark: #2D2D2D;
+$gray: #adb5bd;
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
@@ -7,13 +8,13 @@ $font-size-lg: $font-size-base * 1.25 !default;
 $font-size-lg_x: $font-size-base * 1.55 !default;
 $font-size-lg_xx: $font-size-base * 1.85 !default;
 
-$bg-primary-gradient : linear-gradient($teal 20%, darken($teal, 10%) 100%);
+$bg-primary-gradient : linear-gradient($indigo 20%, darken($indigo, 10%) 100%);
 
 $header-height: 90px;
 
 
 h1 {
-    color: $teal;
+    color: $indigo;
 
 }
 
@@ -39,7 +40,7 @@ h1 {
 }
 
 .bg-primary{
-    background-color: $teal!important;
+    background-color: $indigo!important;
 }
 
 .bg-primary-gradient {
@@ -47,16 +48,16 @@ h1 {
 }
 
 .bg-primary-darken {
-    background: darken($teal, 20%);
+    background: darken($indigo, 20%);
 }
 
 
 .bg-secondary{
-    background-color: $teal!important;
+    background-color: $indigo!important;
 }
 
 .bg-secondary-lighten-20{
-    background-color: lighten($teal, 20%)!important;
+    background-color: lighten($indigo, 20%)!important;
 }
 
 .bg-dark-gray{
@@ -68,11 +69,15 @@ h1 {
 }
 
 .bg-gray{
-    background-color: darken($white,8%);
+    background-color: $gray;
+}
+
+.bg-gray-darken-10{
+    background-color: darken($gray, 10%);
 }
 
 .text-primary {
-    color: $teal!important;
+    color: $indigo!important;
 }
 
 .text-secondary {
@@ -80,80 +85,80 @@ h1 {
 }
 
 .btn-primary {
-    background-color: $teal;
-    border-color: $teal;
+    background-color: $indigo;
+    border-color: $indigo;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: darken($teal, 20%);
-    border-color: darken($teal, 20%);
+    background-color: darken($indigo, 20%);
+    border-color: darken($indigo, 20%);
 }
 
 .btn-primary:hover{
     color: #fff;
-    background-color: darken($teal, 5%);
-    border-color: darken($teal, 5%);
+    background-color: darken($indigo, 5%);
+    border-color: darken($indigo, 5%);
 }
 
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus {
-    box-shadow: 0 0 0 0.2rem lighten($teal, 25%);
+    box-shadow: 0 0 0 0.2rem lighten($indigo, 25%);
 }
 
 .btn-outline-primary {
-    color: $teal;
-    border-color: $teal;
+    color: $indigo;
+    border-color: $indigo;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active {
     color: #fff;
-    background-color: $teal;
-    border-color: $teal;
+    background-color: $indigo;
+    border-color: $indigo;
 }
 
 .btn-outline-primary:hover{
     color: #fff;
-    background-color: $teal;
-    border-color: $teal;   
+    background-color: $indigo;
+    border-color: $indigo;   
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem lighten($teal, 25%);
+    box-shadow: 0 0 0 0.2rem lighten($indigo, 25%);
 }
 
 .btn-secondary {
-    background-color: $teal ;
-    border-color: $teal ;
+    background-color: $indigo ;
+    border-color: $indigo ;
 }
 
 
 .btn-outline-secondary {
     color: lighten($dark,15%);;
-    border-color: $teal;
+    border-color: $indigo;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active {
     color: $dark;
-    background-color: $teal;
-    border-color: $teal;
+    background-color: $indigo;
+    border-color: $indigo;
 }
 
 .btn-outline-secondary:hover{
     color: $dark;
-    background-color: $teal;
-    border-color: $teal; 
+    background-color: $indigo;
+    border-color: $indigo; 
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem lighten($teal, 25%);
+    box-shadow: 0 0 0 0.2rem lighten($indigo, 25%);
 }
 
 .btn-link {    
     color: lighten($dark, 15%);
 
     &.active{        
-        color: $teal;
+        color: $indigo;
     }
 
     &:hover {
@@ -225,6 +230,13 @@ h1 {
         color: darken($white, 10%);
     }  
 
+    .btn-link {
+        color: darken(white, 10%);
+        &.active{
+            color: $indigo;
+        }
+    }
+
 }
 
 /*
@@ -276,8 +288,8 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items:center;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
 
         &.axl-section-100 {
             min-height: 100vh; 
@@ -322,6 +334,28 @@ h1 {
     .axl-sections {
 
         .axl-home-icon-section {
+
+            .centered-middle-icon {
+                display: block;
+                position: absolute;
+                width: 70px;
+                height: 70px;
+                left: 50%;
+                top: 50%;
+                margin-left: -35px;
+                margin-top: -35px;
+                z-index: 100;
+                text-align: center;
+                line-height: 70px;
+                background: lighten($dark,5%);
+                color: darken($white, 15%);
+                transform: rotate(45deg);
+                // box-shadow: 0 5px 35px -5px darken($light, 20%);
+        
+                svg {
+                    transform: rotate(-45deg);
+                }                   
+            }
 
             .centered-icon {
                 display: block;
@@ -396,7 +430,7 @@ h1 {
                     content: '';
                     height: 30px;
                     width: 1px;
-                    background: $teal!important;
+                    background: rgba(255,255,255,.15)!important;
                     position: absolute;
                     right: 0;
                     top: 50%;
@@ -417,7 +451,7 @@ h1 {
         &.is-dark {
             .rcd-card-days {
                 .rcd-value {
-                    text-shadow: 0px 5px 15px darken($dark, 35%);
+                    // text-shadow: 0px 5px 15px darken($dark, 35%);
                 }
             }
         }

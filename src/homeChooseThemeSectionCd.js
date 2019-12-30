@@ -2,9 +2,10 @@ import React from 'react';
 import{Row, Col, ButtonGroup, Button} from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFill } from '@fortawesome/free-solid-svg-icons'
+import { faFill, faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons'
 
-import Countdown from './Countdown'
+// import Countdown from './Countdown'
+import Countdown from 'axl-react-countdown';
 
 class HomeChooseThemeSectionCd extends React.Component{
     constructor(props){
@@ -59,20 +60,20 @@ class HomeChooseThemeSectionCd extends React.Component{
 
         return <>
             <div className="container-fluid axl-home-icon-section">
-                <div className="centered-icon">
-                    <FontAwesomeIcon icon={faFill} size="lg"   />
+                <div className="centered-middle-icon">
+                    <FontAwesomeIcon icon={faLongArrowAltLeft} size="lg"   />
                 </div>                  
                 <Row className="flex-row-reverse">
-                    <Col lg={6} className="bg-dark-lighten-10 is-dark axl-section axl-section-50 ">              
+                    <Col lg={6} className="bg-gray-darken-10 is-dark axl-section axl-section-50 ">              
                         <div className="container-sm_xx w-100 text-center text-lg-left">  
-                            <h3 className="display-4 mb-5 ">Choose your <strong className="text-secondary">theme</strong></h3>
+                            <h3 className="display-4 mb-5 ">Choose your <strong className="text-primary">theme</strong></h3>
                             <p className="lead-1 " >You can choose between the themes offered by the component, OR just build your own css using component's css classes</p>
 
                         </div>
                     </Col>                 
                     <Col 
                     lg={6} 
-                    className="axl-section axl-section-50 text-right"
+                    className="axl-section axl-section-50 text-right bg-gray-darken-10 is-dark"
                     >
                         <div className="container-sm_xx w-100">  
                             <div className="mb-5">
@@ -84,7 +85,7 @@ class HomeChooseThemeSectionCd extends React.Component{
                             <Countdown 
                             expireDate='30 Jan 2020'
                             theme={this.state.theme}
-                            isDark={false}
+                            isDark={true}
                             />
                         </div>                    
                     </Col>

@@ -1,9 +1,10 @@
 import React from 'react';
 import{ButtonGroup, Button, Row, Col, Alert} from 'react-bootstrap'
-import Countdown from './Countdown'
+// import Countdown from './Countdown'
+import Countdown from 'axl-react-countdown';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStopwatch, faHourglassEnd } from '@fortawesome/free-solid-svg-icons'
+import { faStopwatch, faHourglassEnd, faLongArrowAltRight} from '@fortawesome/free-solid-svg-icons'
 
 class HomePassesSectionCd extends React.Component {
 
@@ -38,7 +39,8 @@ class HomePassesSectionCd extends React.Component {
         let startCd = today + (1000*5);
         if(this.state.passedType == 'custom'){
             return <Countdown 
-            expireDate={startCd}
+                expireDate={startCd}
+                isDark={true}
             >
                 <Alert variant='warning' >
                     <div className="d-flex align-items-center">
@@ -79,13 +81,13 @@ class HomePassesSectionCd extends React.Component {
 
         return <>
             <div className="container-fluid axl-home-icon-section">
-                <div className="centered-icon">
-                  <FontAwesomeIcon icon={faHourglassEnd} size="lg"   />
+                <div className="centered-middle-icon">
+                  <FontAwesomeIcon icon={faLongArrowAltRight} size="lg"   />
                 </div>                
                 <Row>
                     <Col 
                     lg={6} 
-                    className="bg-dark is-dark axl-section axl-section-50 "
+                    className="axl-section axl-section-50 "
                     >
 
                     <div className="container-sm_xx w-100 text-center text-lg-right">  
